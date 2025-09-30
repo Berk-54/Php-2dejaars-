@@ -1,0 +1,69 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Pagina-1" id="F9n_KlbwFl6yyQ9ZBziw">
+    <mxGraphModel dx="1158" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d6L8Dweiy5lc17N0pmBw-1" target="d6L8Dweiy5lc17N0pmBw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-1" value="START&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="10" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d6L8Dweiy5lc17N0pmBw-4" target="d6L8Dweiy5lc17N0pmBw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-4" value="Connect database" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d6L8Dweiy5lc17N0pmBw-6" target="d6L8Dweiy5lc17N0pmBw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-6" value="Zoek username in tabel user" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d6L8Dweiy5lc17N0pmBw-8" target="d6L8Dweiy5lc17N0pmBw-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d6L8Dweiy5lc17N0pmBw-8" target="d6L8Dweiy5lc17N0pmBw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-8" value="Bestaat het?" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-12" value="Username already exist" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="580" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-13" value="Ja" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="458" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d6L8Dweiy5lc17N0pmBw-14" target="d6L8Dweiy5lc17N0pmBw-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-14" value="Maak gebruiker aan in database (tabel username)" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-16" value="&amp;nbsp;Nee" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="468" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d6L8Dweiy5lc17N0pmBw-17" target="d6L8Dweiy5lc17N0pmBw-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-17" value="Maak gebruiker aan in database (tabel username)" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d6L8Dweiy5lc17N0pmBw-21" target="d6L8Dweiy5lc17N0pmBw-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-21" value="Maak registratiesessie" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d6L8Dweiy5lc17N0pmBw-23" value="Account created" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

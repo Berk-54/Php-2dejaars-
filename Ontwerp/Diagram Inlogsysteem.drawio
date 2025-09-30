@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Pagina-1" id="rEbghregB0LgeVdGUNWe">
+    <mxGraphModel dx="1042" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aMuFsOKTYOpdYZ0LqeGH-1" target="aMuFsOKTYOpdYZ0LqeGH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aMuFsOKTYOpdYZ0LqeGH-2" target="aMuFsOKTYOpdYZ0LqeGH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-2" value="Connect database" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aMuFsOKTYOpdYZ0LqeGH-3" target="aMuFsOKTYOpdYZ0LqeGH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-3" value="zoek usernaam in tabel user" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="255" y="280" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aMuFsOKTYOpdYZ0LqeGH-5" target="aMuFsOKTYOpdYZ0LqeGH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-5" value="Gevonden?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="314" y="410" width="116" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-6" value="User not found" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-8" value="Nee" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435" y="428" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aMuFsOKTYOpdYZ0LqeGH-12" target="aMuFsOKTYOpdYZ0LqeGH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aMuFsOKTYOpdYZ0LqeGH-12" target="aMuFsOKTYOpdYZ0LqeGH-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-12" value="is ingevoerd&lt;div&gt;pwd = pwd_db&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294" y="600" width="136" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aMuFsOKTYOpdYZ0LqeGH-5" target="aMuFsOKTYOpdYZ0LqeGH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aMuFsOKTYOpdYZ0LqeGH-14" target="aMuFsOKTYOpdYZ0LqeGH-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-14" value="Wrong pwd" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="680" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-16" value="nee&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="623" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aMuFsOKTYOpdYZ0LqeGH-17" target="aMuFsOKTYOpdYZ0LqeGH-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-17" value="Maak inlogsessie&amp;nbsp;&lt;div&gt;(vul sessie)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="770" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuFsOKTYOpdYZ0LqeGH-19" value="End" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="315" y="910" width="265" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
