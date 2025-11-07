@@ -1,0 +1,13 @@
+{
+  "name": "schooltrip/app",
+  "description": "Opdracht 7 Schooluitje",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  }
+}
