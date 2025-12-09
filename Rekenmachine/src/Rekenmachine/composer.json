@@ -1,0 +1,15 @@
+{
+    "name": "abyil/rekenmachine",
+    "autoload": {
+        "psr-4": {
+            "Abyil\\Rekenmachine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Berk-54",
+            "email": "9016037@student.zadkine.nl"
+        }
+    ],
+    "require": {}
+}
