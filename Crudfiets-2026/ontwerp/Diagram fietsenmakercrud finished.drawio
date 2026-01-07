@@ -1,0 +1,41 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="Pagina-1" id="diPT5AX7FK5GCGKB-9cI">
+    <mxGraphModel dx="480" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UhcWjPO2T8WInAT7PUIY-12" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="Database" vertex="1">
+          <mxGeometry height="168" width="140" x="480" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UhcWjPO2T8WInAT7PUIY-13" parent="UhcWjPO2T8WInAT7PUIY-12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+Servername: string&lt;div&gt;+username:string&lt;/div&gt;&lt;div&gt;+password:string&lt;/div&gt;&lt;div&gt;+dbname:string&lt;/div&gt;&lt;div&gt;+_conn:PDO&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="140" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="UhcWjPO2T8WInAT7PUIY-17" parent="UhcWjPO2T8WInAT7PUIY-12" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UhcWjPO2T8WInAT7PUIY-18" parent="UhcWjPO2T8WInAT7PUIY-12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ ConnectDb():PDO" vertex="1">
+          <mxGeometry height="20" width="140" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="UhcWjPO2T8WInAT7PUIY-38" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="Fietscrud" vertex="1">
+          <mxGeometry height="310" width="140" x="190" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UhcWjPO2T8WInAT7PUIY-40" parent="UhcWjPO2T8WInAT7PUIY-38" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+Text:string&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+table:string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+values: array&lt;/div&gt;&lt;div&gt;+retVal:bool&lt;/div&gt;&lt;div&gt;&lt;div&gt;-Result:getData()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="140" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="UhcWjPO2T8WInAT7PUIY-43" parent="UhcWjPO2T8WInAT7PUIY-38" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UhcWjPO2T8WInAT7PUIY-45" parent="UhcWjPO2T8WInAT7PUIY-38" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+crudMain(): void&lt;div&gt;+getData($table):array&lt;/div&gt;&lt;div&gt;+getRecord($id):mixed&lt;/div&gt;&lt;div&gt;+printCrudTabel: $result&lt;/div&gt;&lt;div&gt;+update:bool&lt;/div&gt;&lt;div&gt;+insertrecord(arrray $row):bool&lt;/div&gt;&lt;div&gt;+delete($id):bool&lt;/div&gt;" vertex="1">
+          <mxGeometry height="152" width="140" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="1IkVJ6D3ZSNlN5ZUMJye-1" edge="1" parent="1" source="UhcWjPO2T8WInAT7PUIY-38" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;entryX=0.011;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.98;exitY=0.173;exitDx=0;exitDy=0;exitPerimeter=0;" target="UhcWjPO2T8WInAT7PUIY-13" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="330" y="320" as="sourcePoint" />
+            <mxPoint x="490" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
